@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Accounts]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY Identity, 
     [FirstName] NCHAR(20) NULL, 
     [LastName] NCHAR(20) NULL, 
     [emailAddress] NCHAR(50) NULL, 
